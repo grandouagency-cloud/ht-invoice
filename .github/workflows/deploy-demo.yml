@@ -25,19 +25,19 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: ht-invoice-demo/package-lock.json
+          cache-dependency-path: ht-invoice/ht-invoice-demo/package-lock.json
 
       - name: Install dependencies
-        working-directory: ht-invoice-demo
+        working-directory: ht-invoice/ht-invoice-demo
         run: npm ci
 
       - name: Build
-        working-directory: ht-invoice-demo
+        working-directory: ht-invoice/ht-invoice-demo
         run: npm run build
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ht-invoice-demo/dist
+          path: ht-invoice/ht-invoice-demo/dist
 
   deploy:
     needs: build
