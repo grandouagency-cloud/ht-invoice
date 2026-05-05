@@ -1,7 +1,7 @@
 {
   "name": "ht-invoice-demo",
   "version": "1.0.0",
-  "description": "Live demo of ht-invoice — deployed on GitHub Pages",
+  "description": "Live demo of ht-invoice \u2014 deployed on GitHub Pages",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
@@ -30,6 +30,6 @@
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.6",
     "typescript": "^5.5.3",
-    "vite": "^8.0.10"
+    "vite": "^7.0.0"
   }
 }
