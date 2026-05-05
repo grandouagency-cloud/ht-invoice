@@ -10,6 +10,10 @@ on:
 permissions:
   contents: read
 
+# Force Node.js 24 sur tous les jobs du workflow
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -22,7 +26,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
           cache: npm
           cache-dependency-path: ht-invoice-demo/package-lock.json
 
