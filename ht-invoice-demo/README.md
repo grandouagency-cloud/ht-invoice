@@ -41,4 +41,4 @@ React 18 · TypeScript · Vite · Tailwind CSS · Zustand · react-i18next · Re
 
 ---
 
-← Back to [ht-invoice open source](https://github.com/YOUR_USERNAME/ht-invoice)
+← Back to [ht-invoice open source](https://github.com/grandouagency-cloud/ht-invoice)
