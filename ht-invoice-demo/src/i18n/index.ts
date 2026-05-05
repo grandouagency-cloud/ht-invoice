@@ -12,7 +12,7 @@ const en = {
   demo: 'Demo Mode — data stored locally · no account needed',
   empty: { invoices: 'No invoices yet. Create your first one!', clients: 'No clients yet. Add your first client!' },
   landing: {
-    badge: 'Open Source · Free · Made in Haiti 🇭🇹',
+    badge: 'Open Source · Free',
     headline1: 'Invoice tool for', headline2: 'Haitian freelancers',
     sub: 'Create, send, and track invoices in HTG, USD or EUR — in French, English or Haitian Creole.',
     cta: 'Try the Demo', ctaSub: 'No account needed', github: 'View on GitHub',
@@ -23,7 +23,7 @@ const en = {
     f5title: 'Client Manager', f5desc: 'Manage all your clients and their invoice history.',
     f6title: 'Status Tracking', f6desc: 'Draft → Sent → Paid · Overdue alerts.',
     openTitle: '100% Open Source', openDesc: 'MIT license. Self-host, fork, contribute. Your data stays yours.',
-    footerBy: 'Built with ❤️ in Haiti',
+    footerBy: 'Thanks to all coffee cups',
   }
 };
 
@@ -37,7 +37,7 @@ const fr = {
   demo: 'Mode démo — données locales · aucun compte requis',
   empty: { invoices: 'Aucune facture. Créez votre première !', clients: 'Aucun client. Ajoutez le premier !' },
   landing: {
-    badge: 'Open Source · Gratuit · Fait en Haïti 🇭🇹',
+    badge: 'Open Source · Gratuit',
     headline1: 'Outil de facturation pour', headline2: 'freelances haïtiens',
     sub: 'Créez, envoyez et suivez vos factures en HTG, USD ou EUR — en français, anglais ou créole haïtien.',
     cta: 'Essayer la démo', ctaSub: 'Aucun compte requis', github: 'Voir sur GitHub',
@@ -48,7 +48,7 @@ const fr = {
     f5title: 'Gestion clients', f5desc: "Gérez tous vos clients et l'historique de leurs factures.",
     f6title: 'Suivi des statuts', f6desc: 'Brouillon → Envoyée → Payée · Alertes de retard.',
     openTitle: '100% Open Source', openDesc: 'Licence MIT. Auto-hébergez, forkez, contribuez. Vos données restent chez vous.',
-    footerBy: 'Fait avec ❤️ en Haïti',
+    footerBy: 'Merci à toutes les tasses de café',
   }
 };
 
@@ -62,7 +62,7 @@ const ht = {
   demo: 'Mòd demo — done lokal · pa bezwen kont',
   empty: { invoices: 'Pa gen fakti. Kreye premye ou a !', clients: 'Pa gen kliyan. Ajoute premye ou !' },
   landing: {
-    badge: 'Open Source · Gratis · Fèt ann Ayiti 🇭🇹',
+    badge: 'Open Source · Gratis',
     headline1: 'Zouti fakti pou', headline2: 'frilansè ayisyen',
     sub: 'Kreye, voye, swiv fakti ou yo an HTG, USD oswa EUR — an fransè, anglè oswa kreyòl.',
     cta: 'Eseye Demo a', ctaSub: 'Pa bezwen kont', github: 'Wè sou GitHub',
@@ -73,7 +73,7 @@ const ht = {
     f5title: 'Jesyon kliyan', f5desc: 'Jere tout kliyan ou yo ak istwa fakti yo.',
     f6title: 'Swiv estati', f6desc: 'Bouyon → Voye → Peye · Alèt an reta.',
     openTitle: '100% Open Source', openDesc: 'Lisans MIT. Enstale kote ou vle, fòke, kontribye. Done ou yo rete pa ou.',
-    footerBy: 'Fèt avèk ❤️ ann Ayiti',
+    footerBy: 'Mèsi a tout tas kafe yo',
   }
 };
 
