@@ -1,0 +1,45 @@
+{
+  "nav": {
+    "dashboard": "Tablo de bò", "invoices": "Fakti",
+    "clients": "Kliyan", "settings": "Paramèt"
+  },
+  "invoice": {
+    "new": "Nouvo fakti", "edit": "Modifye fakti", "preview": "Apèsi",
+    "number": "Fakti #", "client": "Kliyan", "issueDate": "Dat emisyon",
+    "dueDate": "Dat echèans", "currency": "Devis", "status": "Estati",
+    "lineItems": "Atik", "description": "Deskripsyon", "qty": "Qte",
+    "unitPrice": "Pri inite", "amount": "Montan", "subtotal": "Sou-total",
+    "tax": "Taks", "total": "Total", "notes": "Nòt", "addLine": "+ Ajoute",
+    "download": "Telechaje PDF", "sendEmail": "Voye pa email",
+    "markPaid": "Make peye", "markSent": "Make voye",
+    "statuses": {
+      "draft": "Bouyon", "sent": "Voye", "paid": "Peye", "overdue": "An reta"
+    }
+  },
+  "client": {
+    "new": "Nouvo kliyan", "name": "Non konplè", "email": "Email",
+    "phone": "Telefòn", "company": "Antrepriz", "address": "Adrès",
+    "invoiceCount": "fakti"
+  },
+  "settings": {
+    "title": "Paramèt", "business": "Pwofil biznis",
+    "businessName": "Non biznis", "businessEmail": "Email biznis",
+    "businessPhone": "Telefòn", "businessAddress": "Adrès",
+    "defaults": "Valè pa defò", "defaultCurrency": "Devis pa defò",
+    "defaultTax": "Taks (%)", "language": "Lang"
+  },
+  "actions": {
+    "save": "Anrejistre", "cancel": "Anile", "delete": "Efase",
+    "edit": "Modifye", "view": "Wè", "confirm": "Ou sèten ?"
+  },
+  "dashboard": {
+    "title": "Tablo de bò", "revenue": "Revni total",
+    "paid": "Peye", "pending": "Annatant", "overdue": "An reta",
+    "recentInvoices": "Dènye fakti", "revenueChart": "Revni (6 dènye mwa)"
+  },
+  "demo": "Mòd demo — done estoke lokalman nan navigatè ou",
+  "empty": {
+    "invoices": "Pa gen fakti. Kreye premye ou a !",
+    "clients": "Pa gen kliyan. Ajoute premye kliyan ou !"
+  }
+}

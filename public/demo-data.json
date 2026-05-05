@@ -1,0 +1,110 @@
+{
+  "clients": [
+    {
+      "id": "demo-c1",
+      "name": "Marie Desrosiers",
+      "email": "marie@techhaiti.ht",
+      "company": "Tech Haiti SARL",
+      "phone": "+509 3700-0001",
+      "address": "Pétion-Ville, Ouest, Haïti",
+      "createdAt": "2025-01-15T10:00:00Z"
+    },
+    {
+      "id": "demo-c2",
+      "name": "Jean-Baptiste Pierre",
+      "email": "jb@design.ht",
+      "company": "JB Studio",
+      "phone": "+509 3700-0002",
+      "address": "Delmas 33, Port-au-Prince, Haïti",
+      "createdAt": "2025-02-01T10:00:00Z"
+    },
+    {
+      "id": "demo-c3",
+      "name": "Claudine Moreau",
+      "email": "claudine@moreau.com",
+      "company": "Moreau & Associés",
+      "phone": "+509 3800-0003",
+      "address": "Bourdon, Port-au-Prince, Haïti",
+      "createdAt": "2025-03-10T10:00:00Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "demo-i1",
+      "number": "INV-2025-001",
+      "clientId": "demo-c1",
+      "status": "paid",
+      "currency": "USD",
+      "taxRate": 10,
+      "issueDate": "2025-01-20",
+      "dueDate": "2025-02-05",
+      "lineItems": [
+        { "id": "li-1", "description": "Website Design & Development", "quantity": 1, "unitPrice": 1500 },
+        { "id": "li-2", "description": "Monthly Maintenance (3 months)", "quantity": 3, "unitPrice": 100 }
+      ],
+      "subtotal": 1800,
+      "taxAmount": 180,
+      "total": 1980,
+      "notes": "Thank you for your business!",
+      "createdAt": "2025-01-20T09:00:00Z",
+      "updatedAt": "2025-02-05T14:00:00Z"
+    },
+    {
+      "id": "demo-i2",
+      "number": "INV-2025-002",
+      "clientId": "demo-c2",
+      "status": "sent",
+      "currency": "HTG",
+      "taxRate": 0,
+      "issueDate": "2025-03-01",
+      "dueDate": "2025-03-20",
+      "lineItems": [
+        { "id": "li-3", "description": "Logo Design", "quantity": 1, "unitPrice": 25000 },
+        { "id": "li-4", "description": "Brand Identity Kit", "quantity": 1, "unitPrice": 15000 }
+      ],
+      "subtotal": 40000,
+      "taxAmount": 0,
+      "total": 40000,
+      "notes": "Mèsi pou konfyans ou. Peman aksepte pa MonCash oswa virement bancaire.",
+      "createdAt": "2025-03-01T09:00:00Z",
+      "updatedAt": "2025-03-01T09:00:00Z"
+    },
+    {
+      "id": "demo-i3",
+      "number": "INV-2025-003",
+      "clientId": "demo-c3",
+      "status": "overdue",
+      "currency": "USD",
+      "taxRate": 5,
+      "issueDate": "2025-02-01",
+      "dueDate": "2025-02-28",
+      "lineItems": [
+        { "id": "li-5", "description": "Legal Consulting (5h)", "quantity": 5, "unitPrice": 120 },
+        { "id": "li-6", "description": "Document Review", "quantity": 1, "unitPrice": 200 }
+      ],
+      "subtotal": 800,
+      "taxAmount": 40,
+      "total": 840,
+      "createdAt": "2025-02-01T09:00:00Z",
+      "updatedAt": "2025-02-01T09:00:00Z"
+    },
+    {
+      "id": "demo-i4",
+      "number": "INV-2025-004",
+      "clientId": "demo-c1",
+      "status": "draft",
+      "currency": "EUR",
+      "taxRate": 20,
+      "issueDate": "2025-04-01",
+      "dueDate": "2025-04-30",
+      "lineItems": [
+        { "id": "li-7", "description": "E-commerce Platform Development", "quantity": 1, "unitPrice": 3500 }
+      ],
+      "subtotal": 3500,
+      "taxAmount": 700,
+      "total": 4200,
+      "createdAt": "2025-04-01T09:00:00Z",
+      "updatedAt": "2025-04-01T09:00:00Z"
+    }
+  ]
+}

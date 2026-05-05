@@ -1,0 +1,45 @@
+{
+  "nav": {
+    "dashboard": "Dashboard", "invoices": "Invoices",
+    "clients": "Clients", "settings": "Settings"
+  },
+  "invoice": {
+    "new": "New Invoice", "edit": "Edit Invoice", "preview": "Preview",
+    "number": "Invoice #", "client": "Client", "issueDate": "Issue Date",
+    "dueDate": "Due Date", "currency": "Currency", "status": "Status",
+    "lineItems": "Line Items", "description": "Description", "qty": "Qty",
+    "unitPrice": "Unit Price", "amount": "Amount", "subtotal": "Subtotal",
+    "tax": "Tax", "total": "Total", "notes": "Notes", "addLine": "+ Add Line",
+    "download": "Download PDF", "sendEmail": "Send by Email",
+    "markPaid": "Mark as Paid", "markSent": "Mark as Sent",
+    "statuses": {
+      "draft": "Draft", "sent": "Sent", "paid": "Paid", "overdue": "Overdue"
+    }
+  },
+  "client": {
+    "new": "New Client", "name": "Full Name", "email": "Email",
+    "phone": "Phone", "company": "Company", "address": "Address",
+    "invoiceCount": "invoices"
+  },
+  "settings": {
+    "title": "Settings", "business": "Business Profile",
+    "businessName": "Business Name", "businessEmail": "Business Email",
+    "businessPhone": "Phone", "businessAddress": "Address",
+    "defaults": "Defaults", "defaultCurrency": "Default Currency",
+    "defaultTax": "Default Tax Rate (%)", "language": "Language"
+  },
+  "actions": {
+    "save": "Save", "cancel": "Cancel", "delete": "Delete",
+    "edit": "Edit", "view": "View", "confirm": "Are you sure?"
+  },
+  "dashboard": {
+    "title": "Dashboard", "revenue": "Total Revenue",
+    "paid": "Paid", "pending": "Pending", "overdue": "Overdue",
+    "recentInvoices": "Recent Invoices", "revenueChart": "Revenue (last 6 months)"
+  },
+  "demo": "Demo Mode — data stored locally in your browser",
+  "empty": {
+    "invoices": "No invoices yet. Create your first one!",
+    "clients": "No clients yet. Add your first client!"
+  }
+}

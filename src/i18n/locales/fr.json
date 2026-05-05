@@ -1,0 +1,45 @@
+{
+  "nav": {
+    "dashboard": "Tableau de bord", "invoices": "Factures",
+    "clients": "Clients", "settings": "Paramètres"
+  },
+  "invoice": {
+    "new": "Nouvelle facture", "edit": "Modifier la facture", "preview": "Aperçu",
+    "number": "Facture #", "client": "Client", "issueDate": "Date d'émission",
+    "dueDate": "Date d'échéance", "currency": "Devise", "status": "Statut",
+    "lineItems": "Articles", "description": "Description", "qty": "Qté",
+    "unitPrice": "Prix unitaire", "amount": "Montant", "subtotal": "Sous-total",
+    "tax": "Taxe", "total": "Total", "notes": "Notes", "addLine": "+ Ajouter",
+    "download": "Télécharger PDF", "sendEmail": "Envoyer par email",
+    "markPaid": "Marquer payée", "markSent": "Marquer envoyée",
+    "statuses": {
+      "draft": "Brouillon", "sent": "Envoyée", "paid": "Payée", "overdue": "En retard"
+    }
+  },
+  "client": {
+    "new": "Nouveau client", "name": "Nom complet", "email": "Email",
+    "phone": "Téléphone", "company": "Entreprise", "address": "Adresse",
+    "invoiceCount": "factures"
+  },
+  "settings": {
+    "title": "Paramètres", "business": "Profil entreprise",
+    "businessName": "Nom de l'entreprise", "businessEmail": "Email professionnel",
+    "businessPhone": "Téléphone", "businessAddress": "Adresse",
+    "defaults": "Valeurs par défaut", "defaultCurrency": "Devise par défaut",
+    "defaultTax": "Taux de taxe (%)", "language": "Langue"
+  },
+  "actions": {
+    "save": "Enregistrer", "cancel": "Annuler", "delete": "Supprimer",
+    "edit": "Modifier", "view": "Voir", "confirm": "Êtes-vous sûr ?"
+  },
+  "dashboard": {
+    "title": "Tableau de bord", "revenue": "Revenus totaux",
+    "paid": "Payées", "pending": "En attente", "overdue": "En retard",
+    "recentInvoices": "Factures récentes", "revenueChart": "Revenus (6 derniers mois)"
+  },
+  "demo": "Mode démo — données stockées localement dans votre navigateur",
+  "empty": {
+    "invoices": "Aucune facture. Créez votre première !",
+    "clients": "Aucun client. Ajoutez votre premier client !"
+  }
+}
