@@ -59,7 +59,7 @@ export default function Landing() {
               ))}
             </div>
             <a
-              href="https://github.com/YOUR_USERNAME/ht-invoice"
+              href="https://github.com/grandouagency-cloud/ht-invoice"
               target="_blank" rel="noopener noreferrer"
               className="hidden sm:flex items-center gap-1.5 text-dark-muted hover:text-white transition-colors text-sm"
             >
@@ -102,7 +102,7 @@ export default function Landing() {
               <Zap size={18} /> {t('landing.cta')}
             </button>
             <a
-              href="https://github.com/YOUR_USERNAME/ht-invoice"
+              href="https://github.com/grandouagency-cloud/ht-invoice"
               target="_blank" rel="noopener noreferrer"
               className="btn-ghost flex items-center gap-2 text-base px-7 py-3"
             >
@@ -180,7 +180,7 @@ export default function Landing() {
                   <Zap size={16} /> {t('landing.cta')}
                 </button>
                 <a
-                  href="https://github.com/YOUR_USERNAME/ht-invoice"
+                  href="https://github.com/grandouagency-cloud/ht-invoice"
                   target="_blank" rel="noopener noreferrer"
                   className="btn-ghost flex items-center gap-2"
                 >
@@ -205,7 +205,7 @@ export default function Landing() {
           <span className="font-display text-white">ht<span className="text-brand">-invoice</span></span>
           {' · '}{t('landing.footerBy')}
           {' · '}
-          <a href="https://github.com/YOUR_USERNAME/ht-invoice" target="_blank" rel="noopener noreferrer" className="text-brand hover:text-brand-light transition-colors">
+          <a href="https://github.com/grandouagency-cloud/ht-invoice" target="_blank" rel="noopener noreferrer" className="text-brand hover:text-brand-light transition-colors">
             GitHub
           </a>
         </p>

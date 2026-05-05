@@ -1,10 +1,10 @@
 # ht-invoice · Demo 🇭🇹
 
-> Live demo of [ht-invoice](https://github.com/YOUR_USERNAME/ht-invoice) — deployed on GitHub Pages.
+> Live demo of [ht-invoice](https://github.com/grandouagency-cloud/ht-invoice) — deployed on GitHub Pages.
 
 ## 🔗 Live Demo
 
-👉 **[YOUR_USERNAME.github.io/ht-invoice](https://YOUR_USERNAME.github.io/ht-invoice)**
+👉 **[grandouagency-cloud.github.io/ht-invoice](https://groudouagency-cloud.github.io/ht-invoice)**
 
 ## Features shown in demo
 

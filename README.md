@@ -27,7 +27,7 @@
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ht-invoice.git
+git clone https://github.com/grandouagency-cloud/ht-invoice.git
 cd ht-invoice
 npm install
 cp .env.example .env
@@ -94,10 +94,10 @@ DRAFT → SENT → PAID
 
 ## 🤝 Contributing
 
-PRs welcome! See [CONTRIBUTING.md](CONTRIBUTING.md).
+PRs welcome! See [CONTRIBUTING docs](CONTRIBUTING.md).
 
 ---
 
 ## 📄 License
 
-MIT © YOUR_NAME — Made with ❤️ in Haiti 🇭🇹
+MIT - ©[Grandou Agency](https://github.com/grandouagency-cloud) — Thanks for all coffee cups

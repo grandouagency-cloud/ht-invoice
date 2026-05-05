@@ -6,10 +6,9 @@ on:
     paths:
       - 'ht-invoice-demo/**'
 
+# Seule permission globale nécessaire : lire le code source (checkout)
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
@@ -42,6 +41,11 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    # ✅ pages: write et id-token: write DOIVENT être ici,
+    #    sur le job deploy, pas au niveau du workflow.
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
