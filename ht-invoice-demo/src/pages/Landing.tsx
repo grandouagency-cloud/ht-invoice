@@ -38,8 +38,7 @@ export default function Landing() {
       <header className="fixed top-0 inset-x-0 z-50 border-b border-dark-border/50 bg-dark-bg/80 backdrop-blur-md">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <span className="font-display text-lg font-bold text-white">
-            ht<span className="text-brand">-invoice</span>
-            <span className="ml-2 text-xs">🇭🇹</span>
+            HT<span className="text-brand">-invoice</span>
           </span>
           <div className="flex items-center gap-3">
             {/* Lang switcher */}
